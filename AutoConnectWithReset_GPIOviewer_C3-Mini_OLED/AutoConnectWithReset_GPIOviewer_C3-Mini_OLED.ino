@@ -93,6 +93,10 @@ void setup() {
     for(;;);
   }
   display.display(); // Clear the buffer
+
+    // Display bitmap
+  display.drawBitmap(0, 0,  carenuity_logo, 128, 64, WHITE);
+  display.display();
   
   //WiFiManager
   //Local intialization. Once its business is done, there is no need to keep it around
